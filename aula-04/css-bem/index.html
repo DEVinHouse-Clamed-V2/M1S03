@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo CSS BEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <style>
+        .menu {
+            /* menu aplicações */
+        }
+
+        .menu__item {
+            /* menu aplicações */
+        }
+
+        .menu__item--active {
+            /* menu aplicações */
+        }
+
+        .menu__icon {
+            /* menu aplicações */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 
+        BEM 
+            Block -> menu
+            Elemento -> menu__item
+                Elemento -> menu__item__icon
+                    Modifica -> menu__item__icon--vermelho
+            Modificador ->
+                menu--dark
+                menu__item--active
+    -->
+    <ul class="menu">
+        <li class="menu__item">Item 1</li>
+        <li class="menu__item menu__item--active">
+            Item 2
+            <i class="menu__item menu__item__icon">icone</i>
+        </li>
+        <li class="menu__item">
+            Item 3
+            <i class="menu__item menu__item__icon">icone</i>
+        </li>
+    </ul>
+
+    <ul class="menu menu--dark">
+        <li class="menu__item">Item 1</li>
+        <li class="menu__item">Item 2</li>
+        <li class="menu__item">Item 3</li>
+    </ul>
+
+
+</body>
+
+</html>

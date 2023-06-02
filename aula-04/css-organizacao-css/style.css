@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+section {
+}
+
+h1 {
+    color: var(--color-primary);
+    font-size: var(--font-lg);
+}
+
+p {
+    color: var(--color-primary);
+}
+
+footer {
+    background-color: var(--color-primary);
+    height: 100px;
+}

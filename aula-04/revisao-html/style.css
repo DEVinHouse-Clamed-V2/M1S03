@@ -1,0 +1,55 @@
+/* Cabeçalho */
+header {
+    background-color: #1a1919;
+    color: rgb(240, 239, 239);
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    display: inline-block;
+}
+
+header nav {
+    margin-left: 200px;
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Conteudo */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1919;
+    padding: 20px;
+    text-align: right;
+    font-size: 14px;
+    color: white;
+}
+
+.icone {
+    font-size: 6rem;
+    color: red;
+}

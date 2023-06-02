@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        input:focus {
+            outline: none;            
+            box-shadow: 10px 10px 31px -4px rgba(255,0,255,1);   
+        }
+        input:read-only {
+            outline: none;            
+            border: 2px solid green;
+        }
+        input:disabled {
+            outline: none;            
+            border: 2px solid blue;
+        }
+        input:required {
+            outline: none;            
+            border: 2px solid rgb(255, 0, 0);
+        }
+       
+    </style>
+
+</head>
+<body>
+    <form>
+        <input type="text" value="3453423" disabled>
+        <input type="text" value="3453423" readonly>
+        <input type="text" value="3453423" required>
+        <input type="text" placeholder="Informe nome">
+    </form>
+   
+</body>
+</html>
